@@ -6,7 +6,7 @@ services:
     container_name: python
     restart: always
     environment:
-      - APP_NAME=flask
+      - APP_NAME=flask-
     expose:
       - 8080
     stdin_open: true # docker run -i
